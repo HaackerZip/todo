@@ -1,0 +1,31 @@
+### Obtener un producto especifico
+GET http://localhost:3000/api/products/30ef9337-0453-4826-9a26-71f6dd0195ef
+
+### ACTUALIZANR PRODUCTO
+PUT http://localhost:3000/api/products/3c4cec29-4670-40c2-8646-71880b657a15
+Content-Type: application/json
+Cookie: next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiVmdrVF9QT2JXUEtYTk8yem1MOUFoaHk2SmtZc01RRzFnWHdFYTdyWVhlUnpmT3M5Rl9UdE5fLTdManA5cFZVV2ZPYTROTUc5c2J4MXBSZlQ4UUphX2cifQ..Z2Z1aOrZ1_N_aUWQctNCUw.kTbCI3Sb4LpWKQPdMAn0bhodxnaOt70nrlpCna1VghO4U-NFJ8e8vvUyWySzem4CXMdIed1gIApxnHs9SKb8QssVtCNngeJDMv5fJ7Vxxj0TR7V4Ea8kBXQ9LBY-I4L2ImF1sQqJGenrpfI3Y2C0uGNWOJ07TC_jNr_iQYJhPvPiyjwA3WylfLnrUOLlMxhFaCbgejyJsF5I6vTshcBBs30aoll-Kohj68f2u_-7ha58Z25OzBHmL8ZBhlSB9bVyH3bF2gIh_bSmDXTt05FEfMtFExmnld28bxTeMgKtSL6OCZZZ06VL-lcFkSv3fz0E.14txcLLoTKov7moucg2iaRk2HVArAkdNb3AgqgecIsw
+
+{
+  "id": "1",
+  "name": "GOAT",
+  "description": "Tabla profesional de alta calidad para skateboarding.",
+  "price": 89.99,
+  "stock": 15,
+  "imageUrl": "https://acdn-us.mitiendanube.com/stores/001/168/383/products/alyxw001681-6ab7db07e4dc77da7f16516855890832-640-0.jpg",
+  "categoryId": "c8ddf85c-6332-4ceb-ac4c-773dfa74c6a3",
+  "brand": "Element",
+  "views": 4,
+  "discount": 9.1,
+  "createdAt": "2024-02-26T12:00:00.000Z",
+  "updatedAt": "2024-02-26T12:00:00.000Z",
+  "specifications": {
+    "material": "Maple canadiense",
+    "dimensiones": "8.25 x 31.85",
+    "concave": "Medio"
+  }
+}
+### ELIMINAR PRODUCTO
+DELETE http://localhost:3000/api/products/30ef9337-0453-4826-9a26-71f6dd0195ef
+Content-Type: application/json
+Cookie: next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiVmdrVF9QT2JXUEtYTk8yem1MOUFoaHk2SmtZc01RRzFnWHdFYTdyWVhlUnpmT3M5Rl9UdE5fLTdManA5cFZVV2ZPYTROTUc5c2J4MXBSZlQ4UUphX2cifQ..Z2Z1aOrZ1_N_aUWQctNCUw.kTbCI3Sb4LpWKQPdMAn0bhodxnaOt70nrlpCna1VghO4U-NFJ8e8vvUyWySzem4CXMdIed1gIApxnHs9SKb8QssVtCNngeJDMv5fJ7Vxxj0TR7V4Ea8kBXQ9LBY-I4L2ImF1sQqJGenrpfI3Y2C0uGNWOJ07TC_jNr_iQYJhPvPiyjwA3WylfLnrUOLlMxhFaCbgejyJsF5I6vTshcBBs30aoll-Kohj68f2u_-7ha58Z25OzBHmL8ZBhlSB9bVyH3bF2gIh_bSmDXTt05FEfMtFExmnld28bxTeMgKtSL6OCZZZ06VL-lcFkSv3fz0E.14txcLLoTKov7moucg2iaRk2HVArAkdNb3AgqgecIsw
